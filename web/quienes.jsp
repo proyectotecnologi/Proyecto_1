@@ -9,6 +9,7 @@
     </head>
     <body>
         <h1>Quienes somos</h1>
+        <%@include file="menu.jsp" %>
         <h2>Como se utiliza el GIT </h2>
         <p>Los repositorios son un mecanismo que nos 
         permite almacenar información de manera cronológica 
