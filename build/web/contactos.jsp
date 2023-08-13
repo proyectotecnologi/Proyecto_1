@@ -1,5 +1,3 @@
-
-
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
@@ -10,13 +8,18 @@
     <body>
         <h1>Contactos</h1>
         <%@include file="menu.jsp" %>
-        <p>
-            Los repositorios son un mecanismo que nos permite almacenar 
-            información de manera cronológica con etiquetas para que en 
-            el largo del desarrollo que estamos haciendo podamos movernos 
-            de un punto a otro, aparte de que tangamos una secuencia de 
-            tareas que se haya hecho a lo largo del tiempo para ello se 
-            trabaja con GIT y con GITHUB.
-        </p>
+        <form action="" method="post">
+            <label>Nombre</label>
+            <input type="text" name="nombre">
+            <br>
+            <label>Referencia</label>
+            <input type="text" name="referencia">
+            <br>
+            <label>Mensaje</label>
+            <textarea name="mensaje"></textarea>    
+            <br>
+            <input type="submit">
+            <br>
+        </form>
     </body>
 </html>
